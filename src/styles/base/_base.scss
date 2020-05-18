@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  // border-style: solid;
+  // border-color: coral;
+  height: 100vh;
+  background-image: url('https://ugc.futurelearn.com/uploads/images/20/13/header_20133507-3444-498b-ad17-10a2d3a30dad.jpg');
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+.enterAppComponent{
+  
+  font-size: $font-size-large;
+  background-color: salmon;
+  lable{
+    padding: 1em;
+  }
+  input{
+    text-align: left;
+    margin: 1em;
+  }
+}
+.position{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
